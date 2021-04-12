@@ -1,4 +1,4 @@
-socket
+sockets
 sys
 time
 pyautogui
