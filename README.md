@@ -1,6 +1,9 @@
 # PARA INSTALAR AS DEPENDENCIAS
 pip3 install -r requirements.txt
 # CASO OCORRER ERROS NA INSTALACAO DAS DEPENDENCIAS 
+
+sudo apt install python3 && sudo apt install pip3
+
 pip3 install sockets
 
 pip3 install sys
