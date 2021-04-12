@@ -183,7 +183,7 @@ def consultaplaca():
                 sys.stdout.flush()
                 time.sleep(1)
             if segundos2 == '60':
-               consultaplaca()
+               menudeopcao2()
     except:
         print(f'{R}ALGUM ERRO OCORREU!!!')
 def menudeopcao2():
