@@ -31,7 +31,7 @@ def spamkk():
     os.system('figlet FLOODER')
     quantidade = input(f'{B}Quantidade De Vezes Que Voce Quer Enviar A Mensagem: {G}')
     mensagem = input(f'{B}Qual Mensagem Voce Quer Enviar: {G}')
-    print(f'{B}Agora Abra A Aba Ou Aplicativo Desejado E Clique Uma  Vez Encima Da Caixa De Texto E Aguarde 30 Segundos...{C}')
+    print(f'{B}Agora Abra A Aba Ou Aplicativo Desejado E Clique Uma  Vez Encima Da Caixa De Texto E Aguarde 10 Segundos...{C}')
     for segundos in range(1, 11):
         sys.stdout.write("\r{} Segundos Passados...".format(segundos))
         time.sleep(1)
