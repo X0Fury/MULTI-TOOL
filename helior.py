@@ -177,7 +177,7 @@ def consultaplaca():
                 menudeopcao2()
         else:
             print(
-                f'{B}A PLACA {G}{placa}{B}{R}NAO{B} FOI CONSULTADA POIS LEVAMOS TIMEOUT, TENTANDO NOVAMENTE EM: 1 MINUTO...{C}')
+                f'{B}A PLACA {G}{placa}{B}{R} NAO{B} FOI CONSULTADA POIS LEVAMOS TIMEOUT, TENTANDO NOVAMENTE EM: 1 MINUTO...{C}')
             for segundos in range(0, 61):
                 segundos2 = sys.stdout.write("\r{} Segundos Passados...".format(segundos))
                 sys.stdout.flush()
