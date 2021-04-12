@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python3
 # IMPORTS AQUI
-import socket, sys, select
+import sockets, sys, select
 import time
 import pyautogui
 import subprocess
@@ -98,7 +98,6 @@ def infomaquina():
     os.system('figlet INFO')
     userkk = getpass.getuser()
     data_agora = date.today()
-    ipkk = socket.gethostbyname(socket.gethostname())
     print(f"""{B}DATA: {G}{data_agora}\n{B}HORA: {G}{now.hour}\n{B}MINUTOS: {G}{now.minute}\n{B}SEGUNDOS: {G}{now.second}{B}\nUSER: {G}{userkk}{B}\nSISTEMA: {G}{platform.system()}{B}\nARQUITETURA DO PROCESSADOR {G}{platform.machine()}{B}\nNOME DO PC: {G}{platform.node()}{B}\nDISTRIBUICAO: {G}{platform.platform()}\n{B}PROCESSADOR:  {G}{os.system("cat /proc/cpuinfo | sed '5!d'")}
 """)
     time.sleep(3)
